@@ -148,8 +148,8 @@ public static WebDriver driver;
 			String value=stubReader.setSheetAndGetData("PDFTestData", "Data",colHeader);
 			String append=null;
 			
-			if(valStoreMap.containsKey(colHeader) && (colHeader.equals("MemoCodes"))){
-				value=colHeader.equalsIgnoreCase("MemoCodes")?value.replace("-",""):value;
+			if(valStoreMap.containsKey(colHeader) && (colHeader.equals("Sell"))){
+				value=colHeader.equalsIgnoreCase("Sell")?value.replace("-",""):value;
 				list=Stream.of(value.split(",")).collect(Collectors.toList());
 				finallist.addAll(list);
 			}
@@ -175,7 +175,7 @@ public static WebDriver driver;
 	public void saveearningDedMemo(String earDedMemo){
 	String[] keySet=earDedMemo.split("/");
 	for(String key:keySet){
-		String value=driver.findElement(By.xpath("div[text()='Memo']")).getText();
+		String value=driver.findElement(By.xpath("div[text()='Sell']")).getText();
 		
 		if(valStoreMap.containsKey(key)){
 		valStoreMap.put(key, valStoreMap.get(key)+","+value);
