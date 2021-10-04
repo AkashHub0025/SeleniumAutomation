@@ -1,0 +1,123 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-04T06:01:47.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefinations.CommonStepDefination.intiate(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefinations.Hooks.intiate(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Ecommerce login application",
+        "description": "",
+        "id": "title-of-your-feature;ecommerce-login-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefinations.Hooks.cleanUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefinations.CommonStepDefination.cleanUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20311000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I login to ecommerce app",
+            "match": {
+              "location": "com.qa.automation.stepdefinations.LoginStepDefination.i_login_to_ecommerce_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5918000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on \"womens\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "womens",
+                  "offset": 12
+                }
+              ],
+              "location": "com.qa.automation.stepdefinations.EcommerceStepDefinnation.i_click_on_section(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7548000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I sign out from website",
+            "match": {
+              "location": "com.qa.automation.stepdefinations.LoginStepDefination.iSignOutWebsite()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Ecommerce.feature",
+    "tags": [
+      {
+        "name": "@Test1",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

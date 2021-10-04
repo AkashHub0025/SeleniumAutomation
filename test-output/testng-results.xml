@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution started for : Ecommerce login application]]>
+    </line>
+    <line>
+      <![CDATA[Execution started for : Ecommerce login application]]>
+    </line>
+    <line>
+      <![CDATA[Testing in Progress.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34468" started-at="2021-10-04T06:01:46Z" finished-at="2021-10-04T06:02:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="34468" started-at="2021-10-04T06:01:46Z" finished-at="2021-10-04T06:02:21Z">
+      <class name="com.qa.automation.runners.Runner">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="beforeSuite" is-config="true" duration-ms="38" started-at="2021-10-04T06:01:46Z" finished-at="2021-10-04T06:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ecommerce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="setUpClass" is-config="true" duration-ms="383" started-at="2021-10-04T06:01:46Z" finished-at="2021-10-04T06:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testParam(java.lang.String, java.lang.String)[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="testParam" is-config="true" duration-ms="0" started-at="2021-10-04T06:01:47Z" finished-at="2021-10-04T06:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParam -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="runScenario" duration-ms="33963" started-at="2021-10-04T06:01:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-04T06:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Ecommerce login application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution started for : Ecommerce login application]]>
+            </line>
+            <line>
+              <![CDATA[Execution started for : Ecommerce login application]]>
+            </line>
+            <line>
+              <![CDATA[Testing in Progress.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.automation.runners.Runner@71423665]" name="tearDownClass" is-config="true" duration-ms="88" started-at="2021-10-04T06:02:21Z" finished-at="2021-10-04T06:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.automation.runners.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
