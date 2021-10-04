@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		features="src/test/resources/Features",
 		glue={"com.qa.automation.stepdefinations"},
 		plugin={"json:target/cucumber.json","html:target/cucumber.html","rerun:failure/rerun.txt"
-				},
+				,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		tags={"@Test"}
 		)
 
